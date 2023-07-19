@@ -1,9 +1,41 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
 @import url("https://fonts.cdnfonts.com/css/helvetica-neue-9");
 * {
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+h1 {
+  /* display: inline-block; */
+  font-size: 94px;
+  letter-spacing: 0.48px;
+  color: #ffffff;
+}
+
+h2 {
+  /* display: inline-block; */
+  font-size: 39px;
+  color: #ffffff;
+}
+
+h4 {
+  /* display: inline-block; */
+  font-size: 20px;
+  color: #c4c4c4;
+}
+
+:root {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(10, 10, 10, 1);
 }
 
 .wrapper {
@@ -13,4 +45,9 @@
   min-height: 100%;
   max-width: 108.25rem;
   margin: 0rem auto;
+}
+
+[class*="-container"] {
+  max-width: 67.8125rem;
+  margin: 0px auto;
 }
