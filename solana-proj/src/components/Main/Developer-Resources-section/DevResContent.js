@@ -32,7 +32,7 @@ function DevResContent() {
           </button>
         </div>
         <h2>Get started.</h2>
-        <h4 class="get-started">
+        <h4>
           Use these Solana Foundation and community courses to begin your
           journey into Solana development.
         </h4>

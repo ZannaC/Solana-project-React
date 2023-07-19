@@ -1,0 +1,33 @@
+.development-course-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: url("../../../assets/images/main/development-course-section/development-course-image.png");
+  width: 67.8106rem;
+  height: 23.125rem;
+  border-radius: 1.125rem;
+  margin-top: 3.2%;
+  margin-bottom: 2.4%;
+  padding-top: 8.5%;
+  padding-bottom: 7.6%;
+}
+
+.development-course-info__btn-chapters {
+  box-sizing: border-box;
+  width: 5.3631rem;
+  height: 1.125rem;
+  color: rgba(255, 255, 255, 1);
+  background-color: #9945ff;
+  border-radius: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.development-course-info__btn-arrow {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
