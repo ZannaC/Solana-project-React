@@ -1,0 +1,49 @@
+.developer-content {
+  padding-top: 132px;
+}
+
+.developer-content h1 {
+  padding-bottom: 19px;
+}
+
+.developer-btn {
+  display: flex;
+  padding-top: 40px;
+}
+
+.developer-btn__build-now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background: #14f195;
+  border: 1px solid #000000;
+  border-radius: 24px;
+  width: 126.25px;
+  height: 42px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.developer-btn__stack-exchange {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 1);
+  background: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+  width: 196.28px;
+  height: 42px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.developer-btn__stack-exchange img {
+  padding-right: 10px;
+}
+
+.developer-content h2 {
+  padding-top: 12rem;
+}
