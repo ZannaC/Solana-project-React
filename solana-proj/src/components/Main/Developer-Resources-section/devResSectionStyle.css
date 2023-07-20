@@ -25,6 +25,11 @@
   cursor: pointer;
 }
 
+.developer-btn__build-now:hover {
+  color: rgba(132, 136, 149, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
 .developer-btn__stack-exchange {
   display: flex;
   justify-content: space-around;
@@ -38,6 +43,11 @@
   height: 2.625rem;
   padding-left: 1%;
   cursor: pointer;
+}
+
+.developer-btn__stack-exchange:hover {
+  color: rgba(132, 136, 149, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .developer-btn__stack-exchange img {

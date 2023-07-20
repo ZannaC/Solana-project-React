@@ -1,10 +1,10 @@
 import HeaderTitle from "./components/Header/HeaderTitle";
 import NavBar from "./components/Header/NavBar";
 import DevResContent from "./components/Main/Developer-Resources-section/DevResContent";
-import DevCourseInfo from "./components/Main/Development-Course-section/DevCourseInfo";
+import DevelopmentCourseSection from "./components/Main/Development-Course-section/DevCourseSection";
 import "./index.css";
 
-function App() {
+const App = () => {
   return (
     <div className="wrapper">
       <header>
@@ -13,13 +13,10 @@ function App() {
       </header>
       <main>
         <DevResContent />
-
-        <section className="development-course-section">
-          <DevCourseInfo />
-        </section>
+        <DevelopmentCourseSection />
       </main>
     </div>
   );
-}
+};
 
 export default App;
