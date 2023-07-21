@@ -6,26 +6,30 @@
   border: 0;
 }
 
-a {
+a,
+ul,
+li {
   list-style: none;
   text-decoration: none;
 }
 
+* li:last-child {
+  padding: 0;
+}
+
 h1 {
-  /* display: inline-block; */
   font-size: 94px;
   letter-spacing: 0.48px;
   color: #ffffff;
 }
 
 h2 {
-  /* display: inline-block; */
   font-size: 39px;
   color: #ffffff;
 }
 
 h4 {
-  /* display: inline-block; */
+  display: inline-block;
   font-size: 20px;
   color: #c4c4c4;
 }

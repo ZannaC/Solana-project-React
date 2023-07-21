@@ -12,7 +12,7 @@ const ThemeBlock = (props) => {
         style={backgroundImageStyle}
       >
         <button
-          className="development-course-info__btn-chapters"
+          className="development-course-info__btn-chapters "
           action="https://www.w3schools.com"
           target="blank"
           type="submit"

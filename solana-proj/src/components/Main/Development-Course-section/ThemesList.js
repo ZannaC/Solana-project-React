@@ -61,7 +61,7 @@ const ThemesList = () => {
       <div className="development-course__btn-load-more-container">
         {displayedItems < OFFER_DATA.length && (
           <button
-            className="development-course__btn-load-more"
+            className="development-course__btn-load-more custom-button-style"
             onClick={addMoreItems}
           >
             Load More
