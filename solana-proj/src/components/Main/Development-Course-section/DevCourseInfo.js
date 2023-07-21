@@ -6,7 +6,7 @@ function DevCourseInfo() {
   return (
     <div className="development-course-info">
       <button
-        className="development-course-info__btn-chapters"
+        className="development-course-info__btn-chapters custom-button-style"
         action="https://www.w3schools.com"
         target="blank"
         type="submit"
